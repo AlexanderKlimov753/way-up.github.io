@@ -1,0 +1,195 @@
+/* @media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+
+    .promo_content {
+        flex-direction: column;
+    }
+
+    .promo_offer {
+        width: 100%;
+    }
+
+    .promo_descr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	
+
+    .expectations {
+        width: 991px;
+    }
+
+    .forms {
+        width: 991px;
+    }
+
+    footer {
+        width: 991px;
+    }
+    
+    .container {
+		width: 991px;
+	}
+
+    .promo_logo {
+        display: block;
+        margin: 0 auto;
+
+        margin-bottom: 30px;
+    }
+
+    .promo_logo img {
+        margin-bottom: 30px;
+    }
+
+	.promo_content {
+		flex-direction: column;
+	}
+
+    .promo_offer {
+		width: 100%;
+	}
+
+    .promo_title {
+        text-align: center;
+    }
+
+    p.promo_descr  {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+        margin-bottom: 20px;
+    }
+
+    .main_btn {
+    display: block;
+    margin: 0 auto;
+    }
+
+    .promo_content_img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .expectations_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+
+   
+
+    .expectations {
+        width: 576px;
+    }
+
+    .forms {
+        width: 576px;
+    }
+
+    footer {
+        width: 576px;
+    }
+    
+    .container {
+		width: 576px;
+	}
+
+	.container {
+		width: 540px;
+        margin-left: 1;
+	}
+
+    .promo_content_img  {
+        width: 450px;
+        height: 450px;
+    }
+   
+}
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}
+
+    .promo_descr {
+        font-size: 12px;
+        width: 215px;
+    }
+
+    .main_btn {
+        height: 45px;
+        width: 185px;
+    }
+
+    .promo_content_img  {
+        width: 300px;
+        height: 300px;
+    }
+
+    .expectation_item_descr {
+        width: 275px;
+    }
+
+    .forms_header {
+        display: block;
+        margin: 0 auto;
+
+    
+    }
+
+    form {
+        margin-top: 65px;
+    }
+
+    input {
+        width: 280px;
+        height: 48px;
+    }
+
+    .forms_btn {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer_header {
+        width: 260px;
+    }
+
+}
+
+
